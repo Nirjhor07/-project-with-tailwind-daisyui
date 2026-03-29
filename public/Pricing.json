@@ -1,0 +1,80 @@
+{
+  "pricing": [
+    {
+      "id": "plan_free_001",
+      "plan": "Free",
+      "description": "Ideal for beginners to explore basic features with limited usage.",
+      "price": 0,
+      "currency": "USD",
+      "duration": "month",
+      "features": [
+        "Basic access",
+        "Limited usage (100 requests/month)",
+        "Community support",
+        "Basic dashboard"
+      ],
+      "limits": {
+        "users": 1,
+        "storage": "1GB",
+        "api_requests_per_month": 100
+      },
+      "trial": false,
+      "badge": null,
+      "cta": "Get Started",
+      "popular": false
+    },
+    {
+      "id": "plan_standard_002",
+      "plan": "Standard",
+      "description": "Best for individuals and small teams needing more power and insights.",
+      "price": 9.99,
+      "currency": "USD",
+      "duration": "month",
+      "features": [
+        "All Free features",
+        "5,000 requests/month",
+        "Email support",
+        "Basic analytics",
+        "File upload (Excel/CSV)",
+        "Data visualization charts"
+      ],
+      "limits": {
+        "users": 3,
+        "storage": "10GB",
+        "api_requests_per_month": 5000
+      },
+      "trial": true,
+      "trial_days": 7,
+      "badge": "Most Popular",
+      "cta": "Upgrade Now",
+      "popular": true
+    },
+    {
+      "id": "plan_premium_003",
+      "plan": "Premium",
+      "description": "Advanced solution for businesses requiring full features, scalability, and priority support.",
+      "price": 19.99,
+      "currency": "USD",
+      "duration": "month",
+      "features": [
+        "All Standard features",
+        "Unlimited requests",
+        "Priority 24/7 support",
+        "Advanced analytics (AI insights)",
+        "Custom dashboards",
+        "API access",
+        "Team collaboration"
+      ],
+      "limits": {
+        "users": 10,
+        "storage": "100GB",
+        "api_requests_per_month": "unlimited"
+      },
+      "trial": true,
+      "trial_days": 14,
+      "badge": null,
+      "cta": "Go Premium",
+      "popular": false
+    }
+  ]
+}
